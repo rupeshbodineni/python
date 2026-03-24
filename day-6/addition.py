@@ -1,0 +1,11 @@
+a=10
+b=20
+c="30"
+d="Rahul"
+e=True
+f=False
+print(a+b)
+print(a+c)
+print(a+d)
+print(a+e)
+print(a+f)
