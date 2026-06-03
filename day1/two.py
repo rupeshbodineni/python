@@ -1,1 +1,2 @@
-int 
+a=100
+print(a)
