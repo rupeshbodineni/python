@@ -30,3 +30,8 @@ print("after pop:",arr)
 #index
 arr=[10,20,30,40,50]
 print("index of 30:",arr.index(30))
+
+#count
+arr=[10,20,30,40,50,50]
+print("50 count:",arr.count(50))
+print("10 count:",arr.count(10))
