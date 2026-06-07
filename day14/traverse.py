@@ -26,3 +26,7 @@ print("after remove:",arr)
 arr=[10,20,30,40,50]
 arr.pop(3)
 print("after pop:",arr)
+
+#index
+arr=[10,20,30,40,50]
+print("index of 30:",arr.index(30))
