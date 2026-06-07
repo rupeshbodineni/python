@@ -16,3 +16,8 @@ print(arr)
 arr=[10,20,30,40,50]
 arr.insert(5,20)
 print("after insert",arr)
+
+#remove
+arr=[10,20,30,40,50]
+arr.remove(20)
+print("after remove:",arr)
