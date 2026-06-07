@@ -21,3 +21,8 @@ print("after insert",arr)
 arr=[10,20,30,40,50]
 arr.remove(20)
 print("after remove:",arr)
+
+#pop
+arr=[10,20,30,40,50]
+arr.pop(3)
+print("after pop:",arr)
