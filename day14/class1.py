@@ -6,8 +6,8 @@
 enames = ["rahul", "rupesh", "suresh", "ramesh"]
 unames = ("rahul", "rupesh", "suresh", "ramesh")
 
-enames[0]="virat"
-print(enames)
+# enames[0]="virat"
+# print(enames)
 
-# unames[0]="virat"
-# print(unames)
+unames[0]="virat"
+print(unames)
