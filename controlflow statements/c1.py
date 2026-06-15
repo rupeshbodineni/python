@@ -52,6 +52,38 @@ employees = [
 #     if employee ["age"]<40:
 #         print(employee["ename"])
 
+# for employee in employees:
+#     if  30<=employee["age"]>50:
+#         print(employee["ename"])
+
+# for employee in employees:
+#     if employee["gender"]=="Female":
+#         print(employee["ename"],employee["age"])
+
+# for employee in employees:
+#     if employee["gender"]=="Male":
+#         print(employee["ename"],employee["age"])
+
+# for employee in employees:
+#     if employee["ename"].startswith("A"):
+#         print(employee["ename"])
+
+
+# for employee in employees:
+#     if employee["ename"].endswith("r"):
+#         print(employee["ename"])
+
+
+# for employee in employees:
+#     if employee["age"]>=60:
+#         print(employee["ename"],"-Senior Employee")
+#     else:
+#         print(employee["ename"],"-Regular Employee")
+
 for employee in employees:
-    if  30<=employee["age"]>50:
-        print(employee["ename"])
+    if employee["age"]<40:
+        print(employee["ename"],"-young")
+    elif 40<=employee["age"]<59:
+        print(employee["ename"],"-Middled aged")
+    else:
+        print(employee["ename"],"-Senior")
