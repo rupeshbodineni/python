@@ -1,4 +1,4 @@
-import db as database
-print(database.eid)
+import db 
+print(db.eid)
 
-database.login()
+db.login()
