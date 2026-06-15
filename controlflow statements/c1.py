@@ -80,10 +80,73 @@ employees = [
 #     else:
 #         print(employee["ename"],"-Regular Employee")
 
+# for employee in employees:
+#     if employee["age"]<40:
+#         print(employee["ename"],"-young")
+#     elif 40<=employee["age"]<59:
+#         print(employee["ename"],"-Middled aged")
+#     else:
+#         print(employee["ename"],"-Senior")
+
+# for employee in employees:
+#     if employee["age"]>80:
+#         print(employee["ename"])
+
+# for employee in employees:
+#     if employee["gender"]=="Male":
+#         print(employee["ename"],employee["gender"],"-Actor")
+#     else:
+#         print(employee["ename"],employee["gender"],"-Actress")
+
+# for employee in employees:
+#     if employee["age"]%2==0:
+#         print(employee)
+
+# for employee in employees:
+#     if employee["age"]%2 !=0:
+#         print(employee)
+
+# for employee in employees:
+#     if employee["eid"]%5==0:
+#         print(employee)
+
+# for employee in employees:
+#     if len(employee["ename"])>12:
+#         print(employee["ename"])
+
+# for employee in employees:
+#     if employee["age"]%10 in (7,9):
+#         print(employee)
+
+# for employee in employees:
+#     if employee["age"]==82:
+#         break
+# print(employee)
+
+# for employee in employees:
+#     if employee["gender"]=="Female":
+#         continue
+#     print(employee)
+
+# for employee in employees:
+#     if employee["age"]<40:
+#         continue
+#     print(employee)
+
+# count=0
+# for employee in employees:
+#     print(employee)
+#     count+=1
+#     if count==5:
+#         break
+
+# for employee in employees:
+#     if "Khan" in employee["ename"]:
+#         continue
+#     print(employee)
+
+
 for employee in employees:
-    if employee["age"]<40:
-        print(employee["ename"],"-young")
-    elif 40<=employee["age"]<59:
-        print(employee["ename"],"-Middled aged")
-    else:
-        print(employee["ename"],"-Senior")
+    if employee["gender"]=="Female" and employee["age"]>50:
+        break
+    print(employee)
