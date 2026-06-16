@@ -146,7 +146,12 @@ employees = [
 #     print(employee)
 
 
-for employee in employees:
-    if employee["gender"]=="Female" and employee["age"]>50:
-        break
-    print(employee)
+# for employee in employees:
+#     if employee["gender"]=="Female" and employee["age"]>50:
+#         break
+#     print(employee)
+
+# for employee in employees:
+#     if employee["eid"]%2==0:
+#         print(employee)
+
