@@ -155,3 +155,34 @@ employees = [
 #     if employee["eid"]%2==0:
 #         print(employee)
 
+# for employee in employees:
+#     if employee["ename"]=="Rajinikanth":
+#         break
+#     print(employee)
+
+# for employee in employees:
+#     if employee["age"]>70:
+#         continue
+#     print(employee)
+
+# for employee in employees:
+#     if employee["gender"]=="Male" and employee["age"]>50:
+#         print(employee)
+#     else:
+#         if employee["gender"]=="Female" and employee["age"]>45:
+#             print(employee)
+
+
+# for employee in employees:
+#     if employee["age"] >= 50:
+#         print(employee["ename"].upper())
+#     else:
+#         print(employee["ename"].lower())
+
+for employee in employees:
+    if employee["age"]>=70:
+        print(employee["ename"],"-veteran")
+    elif: 69<employee["age"]>50:
+        print(employee["ename"],"-Experienced")
+    else:
+        print(employee["ename","-Rising Star"])
