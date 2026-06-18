@@ -179,10 +179,10 @@ employees = [
 #     else:
 #         print(employee["ename"].lower())
 
-for employee in employees:
-    if employee["age"]>=70:
-        print(employee["ename"],"-veteran")
-    elif: 69<employee["age"]>50:
-        print(employee["ename"],"-Experienced")
-    else:
-        print(employee["ename","-Rising Star"])
+# for employee in employees:
+#     if employee["age"]>=70:
+#         print(employee["ename"],"-veteran")
+#     elif: 69<employee["age"]>50:
+#         print(employee["ename"],"-Experienced")
+#     else:
+#         print(employee["ename","-Rising Star"])
