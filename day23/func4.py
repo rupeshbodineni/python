@@ -4,3 +4,4 @@ def outer():
     return inner()
 inner=outer()
 inner()
+
