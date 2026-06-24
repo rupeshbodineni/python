@@ -58,14 +58,14 @@ from fastapi import FastAPI
 
 # 5xx – Server Errors
 
-Problem is from the server side.
+# Problem is from the server side.
 
-500 Internal Server Error → Generic server error.
-501 Not Implemented → Server doesn’t support requested functionality.
-502 Bad Gateway → Invalid response from upstream server.
-503 Service Unavailable → Server temporarily unavailable.
-504 Gateway Timeout → Upstream server took too long.
-Example:
-Python backend crashed → 500
-Server under maintenance → 503
-API gateway timeout → 504
+# 500 Internal Server Error → Generic server error.
+# 501 Not Implemented → Server doesn’t support requested functionality.
+# 502 Bad Gateway → Invalid response from upstream server.
+# 503 Service Unavailable → Server temporarily unavailable.
+# 504 Gateway Timeout → Upstream server took too long.
+# Example:
+# Python backend crashed → 500
+# Server under maintenance → 503
+# API gateway timeout → 504
