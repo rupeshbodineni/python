@@ -2,7 +2,7 @@ from abc import ABC, abstractmethod
 from datetime import datetime
 import json
 
-# ====================== MIXIN ======================
+
 class JsonSerializableMixin:
     """Mixin to add JSON functionality to any class"""
     def to_json(self):
@@ -14,7 +14,7 @@ class JsonSerializableMixin:
         return cls(**data)
 
 
-# ====================== BASE CLASSES ======================
+
 class Person(ABC):
     def __init__(self, name, contact):
         self.name = name
@@ -54,8 +54,6 @@ class Room(ABC):
     def calculate_cost(self, nights):
         return self.price_per_night * nights
 
-
-# ====================== CHILD CLASSES ======================
 
 class Guest(Person, JsonSerializableMixin):
     def __init__(self, name, contact, id_proof):
@@ -114,7 +112,6 @@ class Suite(Room, JsonSerializableMixin):
         return "Suite"
 
 
-# ====================== MAIN HOTEL CLASS ======================
 class Hotel:
     def __init__(self, name):
         self.name = name
