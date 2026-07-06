@@ -34,8 +34,23 @@
 # print(x)
 # print(y)
 
-sum=0
-for i in range(1,11):
-    if i%2==0 and i%3==0:
-        sum+=0
-print(sum)
+# sum=0
+# for i in range(1,11):
+#     if i%2==0 and i%3==0:
+#         sum+=0
+# print(sum)
+
+# for i in range(1,20):
+#     if i**2<=20:
+#         print(i**2)
+
+# a=[10,20,30,40]
+# a.pop()
+# print(a)
+
+# words=["python","java","c++","golang"]
+# words.append("java")
+# words.remove("python")
+# print(words)
+# print(words[0])
+
