@@ -8,8 +8,3 @@ c1=cars("bmw",500000,2000)
 print(c1.manufacturedyear)
 print(c1.brand)
 print(c1.price)
-
-
-class students:
-    def __init__(self,name,rollnumber,marks):
-        

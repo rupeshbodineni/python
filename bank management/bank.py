@@ -1,4 +1,3 @@
-
 class bankmanagement():
     def __init__(self,name,balance):
         self.name=name
