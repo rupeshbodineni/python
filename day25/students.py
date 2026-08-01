@@ -15,6 +15,4 @@ students=json.load(f1)
 
 
 
-for student in students:
-    if student["id"] == id:
-        print(student)
+
