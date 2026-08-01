@@ -14,5 +14,7 @@ students=json.load(f1)
 #         print(student['name'],student['cgpa'])
 
 
+
 for student in students:
-    where 
+    if student["id"] == id:
+        print(student)
